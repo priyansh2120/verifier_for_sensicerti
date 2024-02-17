@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 
-export default function () {
+const page = () => {
   const [name, setName] = useState('');
   const [cid, setCID] = useState('');
 
@@ -85,3 +85,5 @@ export default function () {
     </div>
   )
 }
+
+export default page;
