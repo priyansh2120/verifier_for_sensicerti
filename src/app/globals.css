@@ -1,0 +1,58 @@
+.cidEnter{
+    display: flex;
+}
+.dobEnter{
+    display: flex;
+}
+.nameEnter{
+    display: flex;
+}
+
+input {
+    margin-top: 15px;
+    height: 90%;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    color: wheat;
+}
+.verify {
+    text-align: auto;
+}
+.body {
+    height: 100vh;
+}
+body {
+    background-image: linear-gradient(to right top, #051937, #041632, #04112e, #020c29, #000625);
+    color: white;
+    font-size:x-large;
+}
+.search{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.post{
+    margin-right: 50px;
+}
+.wrap {
+    margin-top: 50px;
+    margin-left: 550px;
+    /* text-align: center; */
+}
+button {
+    border: 2px solid #000625;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size:x-large;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #051937, #041632, #04112e, #020c29, #000625);
+    color: white;
+}
